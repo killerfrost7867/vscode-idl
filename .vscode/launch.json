@@ -6,6 +6,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "cobol",
+      "request": "launch",
+      "name": "COBOL (native)",
+      "program": "${workspaceFolder}/<insert-program-name-here>",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": true
+    },
+    {
       "name": "Run IDL Extension",
       "type": "extensionHost",
       "request": "launch",
